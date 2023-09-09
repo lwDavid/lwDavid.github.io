@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://lwdavid.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://lwdavid.github.io/"/>
   <updated>2023-09-09T03:05:07.893Z</updated>
-  <id>http://example.com/</id>
+  <id>https://lwdavid.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>post_test</title>
-    <link href="http://example.com/2023/09/09/post-test/"/>
-    <id>http://example.com/2023/09/09/post-test/</id>
+    <link href="https://lwdavid.github.io/2023/09/09/post-test/"/>
+    <id>https://lwdavid.github.io/2023/09/09/post-test/</id>
     <published>2023-09-08T17:46:55.000Z</published>
     <updated>2023-09-09T03:05:07.893Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>test_my_site</title>
-    <link href="http://example.com/2023/09/09/test-my-site-1/"/>
-    <id>http://example.com/2023/09/09/test-my-site-1/</id>
+    <link href="https://lwdavid.github.io/2023/09/09/test-my-site-1/"/>
+    <id>https://lwdavid.github.io/2023/09/09/test-my-site-1/</id>
     <published>2023-09-08T17:41:00.000Z</published>
     <updated>2023-09-08T17:41:00.668Z</updated>
     
@@ -52,8 +52,8 @@
   
   <entry>
     <title>test_my_site</title>
-    <link href="http://example.com/2023/09/09/test-my-site/"/>
-    <id>http://example.com/2023/09/09/test-my-site/</id>
+    <link href="https://lwdavid.github.io/2023/09/09/test-my-site/"/>
+    <id>https://lwdavid.github.io/2023/09/09/test-my-site/</id>
     <published>2023-09-08T17:28:05.000Z</published>
     <updated>2023-09-08T17:28:05.103Z</updated>
     
@@ -65,8 +65,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/09/09/hello-world/"/>
-    <id>http://example.com/2023/09/09/hello-world/</id>
+    <link href="https://lwdavid.github.io/2023/09/09/hello-world/"/>
+    <id>https://lwdavid.github.io/2023/09/09/hello-world/</id>
     <published>2023-09-08T17:21:43.806Z</published>
     <updated>2023-09-08T17:21:43.806Z</updated>
     

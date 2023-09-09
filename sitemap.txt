@@ -1,5 +1,5 @@
-http://example.com/2023/09/09/post-test/
-http://example.com/2023/09/09/test-my-site-1/
-http://example.com/2023/09/09/test-my-site/
-http://example.com/2023/09/09/hello-world/
-http://example.com/
+https://lwdavid.github.io/2023/09/09/post-test/
+https://lwdavid.github.io/2023/09/09/test-my-site-1/
+https://lwdavid.github.io/2023/09/09/test-my-site/
+https://lwdavid.github.io/2023/09/09/hello-world/
+https://lwdavid.github.io/
