@@ -17,18 +17,22 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>test_post | Liwei Guo</title>
-  <meta property="og:type" content="article">
-<meta property="og:title" content="test_post">
-<meta property="og:url" content="https://lwdavid.github.io/2023/09/09/test-post/index.html">
+  <title>《机器学习方法》 第2章 感知机 | Liwei Guo</title>
+  <meta name="description" content="2.1 感知机模型  2.2 感知机学习策略  2.3 感知机学习算法  习题">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《机器学习方法》 第2章 感知机">
+<meta property="og:url" content="https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/index.html">
 <meta property="og:site_name" content="Site">
+<meta property="og:description" content="2.1 感知机模型  2.2 感知机学习策略  2.3 感知机学习算法  习题">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-09-09T10:56:27.000Z">
-<meta property="article:modified_time" content="2023-09-09T10:56:27.406Z">
+<meta property="article:published_time" content="2023-09-09T15:51:15.000Z">
+<meta property="article:modified_time" content="2023-09-09T15:53:01.851Z">
 <meta property="article:author" content="David">
+<meta property="article:tag" content="机器学习">
+<meta property="article:tag" content="机器学习方法">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://lwdavid.github.io/2023/09/09/test-post/index.html">
+  <link rel="canonical" href="https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/index.html">
   
     <link rel="alternate" href="/" title="Site" type="application/atom+xml">
   
@@ -38,6 +42,8 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
+  
+    <link href="//cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" rel="stylesheet">
   
   
   
@@ -129,41 +135,11 @@
         
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags">
+          <a href="/tags/">
             
             <i class="icon icon-tags"></i>
             
             <span class="menu-title">Tags</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-repository">
-          <a href="/repository">
-            
-            <i class="icon icon-project"></i>
-            
-            <span class="menu-title">Repository</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-books">
-          <a href="/books">
-            
-            <i class="icon icon-book-fill"></i>
-            
-            <span class="menu-title">Books</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-links">
-          <a href="/links">
-            
-            <i class="icon icon-friendship"></i>
-            
-            <span class="menu-title">Links</span>
           </a>
         </li>
         
@@ -179,6 +155,13 @@
         
       </ul>
       
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/lwDavid" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+    </ul>
+
     </nav>
   </div>
 </header>
@@ -200,13 +183,20 @@
 
     
       
+  <div class="widget">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget-body">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Machine-Learning/">Machine Learning</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
 
     
       
   <div class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" rel="tag">机器学习方法</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" rel="tag">机器学习方法</a><span class="tag-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -216,7 +206,7 @@
   <div class="widget">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget-body tagcloud">
-      <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" style="font-size: 13px;">机器学习方法</a>
+      <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 13px;">机器学习</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" style="font-size: 13px;">机器学习方法</a>
     </div>
   </div>
 
@@ -225,7 +215,7 @@
   <div class="widget">
     <h3 class="widget-title">Archive</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a><span class="archive-list-count">3</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -241,43 +231,28 @@
             
             <div class="item-inner">
               <p class="item-category">
-                
+                <a class="category-link" href="/categories/Machine-Learning/">Machine Learning</a>
+              </p>
+              <p class="item-title">
+                <a href="/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/" class="title">《机器学习方法》 第2章 感知机</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2023-09-09T15:51:15.000Z" itemprop="datePublished">2023-09-09</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/Machine-Learning/">Machine Learning</a>
               </p>
               <p class="item-title">
                 <a href="/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC1%E7%AB%A0-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%AE%BA/" class="title">《机器学习方法》 第1章 机器学习及监督学习概论</a>
               </p>
               <p class="item-date">
                 <time datetime="2023-09-09T12:56:07.000Z" itemprop="datePublished">2023-09-09</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2023/09/09/test-post-2/" class="title">test_post_2</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2023-09-09T10:57:14.000Z" itemprop="datePublished">2023-09-09</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2023/09/09/test-post/" class="title">test_post</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2023-09-09T10:56:27.000Z" itemprop="datePublished">2023-09-09</time>
               </p>
             </div>
           </li>
@@ -295,14 +270,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-test-post" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-机器学习方法-第2章-感知机" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      test_post
+      《机器学习方法》 第2章 感知机
     </h1>
   
 
@@ -310,22 +285,36 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2023/09/09/test-post/" class="article-date">
-	  <time datetime="2023-09-09T10:56:27.000Z" itemprop="datePublished">2023-09-09</time>
+	<a href="/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/" class="article-date">
+	  <time datetime="2023-09-09T15:51:15.000Z" itemprop="datePublished">2023-09-09</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/Machine-Learning/">Machine Learning</a>
+  </span>
+
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a>, <a class="article-tag-link-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" rel="tag">机器学习方法</a>
+  </span>
+
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2023/09/09/test-post/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/#comments" class="article-comment-link">Comments</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        
+        <h1 id="21-感知机模型"><a class="markdownIt-Anchor" href="#21-感知机模型"></a> 2.1 感知机模型</h1>
+<h1 id="22-感知机学习策略"><a class="markdownIt-Anchor" href="#22-感知机学习策略"></a> 2.2 感知机学习策略</h1>
+<h1 id="23-感知机学习算法"><a class="markdownIt-Anchor" href="#23-感知机学习算法"></a> 2.3 感知机学习算法</h1>
+<h1 id="习题"><a class="markdownIt-Anchor" href="#习题"></a> 习题</h1>
+
       
     </div>
     <div class="article-footer">
@@ -333,12 +322,12 @@
   <ul class="post-copyright list-unstyled">
     
     <li class="post-copyright-link hidden-xs">
-      <strong>本文链接：</strong>
-      <a href="https://lwdavid.github.io/2023/09/09/test-post/" title="test_post" target="_blank" rel="external">https://lwdavid.github.io/2023/09/09/test-post/</a>
+      <strong>Post Link：</strong>
+      <a href="https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/" title="《机器学习方法》 第2章 感知机" target="_blank" rel="external">https://lwdavid.github.io/2023/09/09/机器学习方法-第2章-感知机/</a>
     </li>
     
     <li class="post-copyright-license">
-      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+      <strong>Copyright Notice： </strong> All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="external">CC BY-NC-SA 4.0</a> unless stating additionally.
     </li>
   </ul>
 </blockquote>
@@ -348,12 +337,12 @@
   <div class="panel-body">
     <figure class="media">
       <div class="media-left">
-        <a href="https://github.com/lwDavid" target="_blank" class="img-burn thumb-sm visible-lg">
+        <a target="_blank" class="thumb-sm visible-lg">
           <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/lwDavid" target="_blank"><span class="text-dark">Liwei Guo</span><small class="ml-1x">Programmer</small></a></h3>
+        <h3 class="media-heading"><a target="_blank"><span class="text-dark">Liwei Guo</span><small class="ml-1x">Programmer</small></a></h3>
         <div>M.Sc. in Computer Science (Pursuing)</div>
       </div>
     </figure>
@@ -378,10 +367,10 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2023/09/09/test-post-2/" title="test_post_2"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
-    </li>
     
+    <li class="next">
+      <a href="/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC1%E7%AB%A0-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%AE%BA/" title="《机器学习方法》 第1章 机器学习及监督学习概论"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
     
     
   </ul>
@@ -400,6 +389,13 @@
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/lwDavid" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+    </ul>
+
     <div class="copyright">
     	
         &copy; 2023 David
