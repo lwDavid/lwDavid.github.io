@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Site</title>
+  
+  
+  <link href="https://lwdavid.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://lwdavid.github.io/"/>
+  <updated>2023-09-09T10:57:14.159Z</updated>
+  <id>https://lwdavid.github.io/</id>
+  
+  <author>
+    <name>David</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test_post_2</title>
+    <link href="https://lwdavid.github.io/2023/09/09/test-post-2/"/>
+    <id>https://lwdavid.github.io/2023/09/09/test-post-2/</id>
+    <published>2023-09-09T10:57:14.000Z</published>
+    <updated>2023-09-09T10:57:14.159Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test_post</title>
+    <link href="https://lwdavid.github.io/2023/09/09/test-post/"/>
+    <id>https://lwdavid.github.io/2023/09/09/test-post/</id>
+    <published>2023-09-09T10:56:27.000Z</published>
+    <updated>2023-09-09T10:56:27.406Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
