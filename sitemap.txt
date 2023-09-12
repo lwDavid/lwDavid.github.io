@@ -1,10 +1,11 @@
-https://lwdavid.github.io/about/index.html
 https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/
 https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC1%E7%AB%A0-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%AE%BA/
+https://lwdavid.github.io/about/index.html
 https://lwdavid.github.io/categories/index.html
 https://lwdavid.github.io/404.html
 https://lwdavid.github.io/tags/index.html
 https://lwdavid.github.io/
-https://lwdavid.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
+https://lwdavid.github.io/tags/Machine-Learning/
 https://lwdavid.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/
 https://lwdavid.github.io/categories/Machine-Learning/
+https://lwdavid.github.io/categories/Machine-Learning/Perceptron/
