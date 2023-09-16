@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/</loc>
+    <loc>https://lwdavid.github.io/2023/09/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC4%E7%AB%A0-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%95/</loc>
     
-    <lastmod>2023-09-12</lastmod>
+    <lastmod>2023-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lwdavid.github.io/2023/09/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC3%E7%AB%A0-k%E8%BF%91%E9%82%BB%E6%B3%95/</loc>
+    
+    <lastmod>2023-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lwdavid.github.io/2023/09/12/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/</loc>
+    
+    <lastmod>2023-09-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +76,7 @@
 
   <url>
     <loc>https://lwdavid.github.io/</loc>
-    <lastmod>2023-09-12</lastmod>
+    <lastmod>2023-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,14 +84,21 @@
   
   <url>
     <loc>https://lwdavid.github.io/tags/Machine-Learning/</loc>
-    <lastmod>2023-09-12</lastmod>
+    <lastmod>2023-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lwdavid.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2023-09-12</lastmod>
+    <lastmod>2023-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lwdavid.github.io/tags/Tree/</loc>
+    <lastmod>2023-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -82,14 +107,14 @@
   
   <url>
     <loc>https://lwdavid.github.io/categories/Machine-Learning/</loc>
-    <lastmod>2023-09-12</lastmod>
+    <lastmod>2023-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lwdavid.github.io/categories/Machine-Learning/Perceptron/</loc>
-    <lastmod>2023-09-12</lastmod>
+    <lastmod>2023-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
