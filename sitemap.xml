@@ -130,6 +130,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://lwdavid.github.io/tags/Mathematics/</loc>
+    <lastmod>2024-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -141,6 +148,13 @@
   
   <url>
     <loc>https://lwdavid.github.io/categories/Machine-Learning/Perceptron/</loc>
+    <lastmod>2024-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lwdavid.github.io/categories/Mathematics/</loc>
     <lastmod>2024-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

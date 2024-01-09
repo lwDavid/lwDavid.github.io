@@ -13,5 +13,7 @@ https://lwdavid.github.io/
 https://lwdavid.github.io/tags/Machine-Learning/
 https://lwdavid.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/
 https://lwdavid.github.io/tags/Tree/
+https://lwdavid.github.io/tags/Mathematics/
 https://lwdavid.github.io/categories/Machine-Learning/
 https://lwdavid.github.io/categories/Machine-Learning/Perceptron/
+https://lwdavid.github.io/categories/Mathematics/
