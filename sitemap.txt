@@ -1,10 +1,10 @@
+https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC1%E7%AB%A0-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%AE%BA/
+https://lwdavid.github.io/2023/09/12/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/
+https://lwdavid.github.io/2023/09/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC3%E7%AB%A0-k%E8%BF%91%E9%82%BB%E6%B3%95/
+https://lwdavid.github.io/2023/09/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC4%E7%AB%A0-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%95/
+https://lwdavid.github.io/2023/09/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC5%E7%AB%A0-%E5%86%B3%E7%AD%96%E6%A0%91/
 https://lwdavid.github.io/2024/01/09/%E5%8D%A1%E7%89%B9%E5%85%B0%E6%95%B0/
 https://lwdavid.github.io/2023/11/27/New-env-test/
-https://lwdavid.github.io/2023/09/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC5%E7%AB%A0-%E5%86%B3%E7%AD%96%E6%A0%91/
-https://lwdavid.github.io/2023/09/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC4%E7%AB%A0-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%95/
-https://lwdavid.github.io/2023/09/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC3%E7%AB%A0-k%E8%BF%91%E9%82%BB%E6%B3%95/
-https://lwdavid.github.io/2023/09/12/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC2%E7%AB%A0-%E6%84%9F%E7%9F%A5%E6%9C%BA/
-https://lwdavid.github.io/2023/09/09/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E7%AC%AC1%E7%AB%A0-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%AE%BA/
 https://lwdavid.github.io/about/index.html
 https://lwdavid.github.io/categories/index.html
 https://lwdavid.github.io/404.html
@@ -14,6 +14,6 @@ https://lwdavid.github.io/tags/Machine-Learning/
 https://lwdavid.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/
 https://lwdavid.github.io/tags/Tree/
 https://lwdavid.github.io/tags/Mathematics/
+https://lwdavid.github.io/categories/Mathematics/
 https://lwdavid.github.io/categories/Machine-Learning/
 https://lwdavid.github.io/categories/Machine-Learning/Perceptron/
-https://lwdavid.github.io/categories/Mathematics/
