@@ -6,7 +6,7 @@
   <link href="https://lwdavid.github.io/atom.xml" rel="self"/>
   
   <link href="https://lwdavid.github.io/"/>
-  <updated>2024-04-07T08:03:41.920Z</updated>
+  <updated>2024-01-09T16:31:33.193Z</updated>
   <id>https://lwdavid.github.io/</id>
   
   <author>
@@ -15,37 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>论文笔记：Convolutional Neural Networks for Sentence Classification</title>
-    <link href="https://lwdavid.github.io/2024/04/07/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0%EF%BC%9AConvolutional-Neural-Networks-for-Sentence-Classification/"/>
-    <id>https://lwdavid.github.io/2024/04/07/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0%EF%BC%9AConvolutional-Neural-Networks-for-Sentence-Classification/</id>
-    <published>2024-04-07T06:44:29.000Z</published>
-    <updated>2024-04-07T08:03:41.920Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>论文链接：<a href="https://arxiv.org/pdf/1408.5882">https://arxiv.org/pdf/1408.5882</a></p></blockquote><p>之前上课看到的一篇老论文，来自2014年EMNLP。简要总结一下论文的核心内容与思想。</p><p>先前的很多模型使用循环神经网络（Recurrent Neural Network）在预料库上学习词向量（Word Vector），并且可以用于文本分类的任务。该论文则采用了卷积神经网络（Convolutional Neural Network）去实现文本分类模型，并且在指标上达到了很好的效果。</p><p>如下图所示，通过一个尺寸为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>×</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">\it{n} \times \it{k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord"><span class="mord mathit">n</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord"><span class="mord mathit">k</span></span></span></span></span></span></span>的矩阵来表示一个句子。其中<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">\it{n}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathit">n</span></span></span></span></span></span>是句子中词的数量，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">\it{k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathit">k</span></span></span></span></span></span>是表示词的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">\it{k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathit">k</span></span></span></span></span></span>维词向量。而卷积核是尺寸为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo>×</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">\it{h} \times \it{k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord"><span class="mord mathit">h</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord"><span class="mord mathit">k</span></span></span></span></span></span></span>的矩阵，也就是说卷积核的长度与词向量维度的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">\it{k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathit">k</span></span></span></span></span></span>保持一致，而宽度<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">\it{h}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathit">h</span></span></span></span></span></span>则定义了卷积核作用的窗口大小。图中的红色和黄色线条表示了卷积核在词向量上的滑动卷积过程，通过不同的卷积核的到不同的特征图。之后再对所得到的特征图进行Max-over-time池化，也就是选取所有时间步中的最大值来作为特征。最后经过池化得到的特征图通过一个采用Dropout和softmax的全连接层输出结果。</p><img src="01.png">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;论文链接：&lt;a href=&quot;https://arxiv.org/pdf/1408.5882&quot;&gt;https://arxiv.org/pdf/1408.5882&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;之前上课看到的一篇老论文，来自2014年</summary>
-      
-    
-    
-    
-    <category term="Deep_Learning" scheme="https://lwdavid.github.io/categories/Deep-Learning/"/>
-    
-    
-    <category term="Deep Learning" scheme="https://lwdavid.github.io/tags/Deep-Learning/"/>
-    
-    <category term="CNN" scheme="https://lwdavid.github.io/tags/CNN/"/>
-    
-    <category term="NLP" scheme="https://lwdavid.github.io/tags/NLP/"/>
-    
-  </entry>
   
   <entry>
     <title>笔记：卡特兰数公式推导方法</title>
